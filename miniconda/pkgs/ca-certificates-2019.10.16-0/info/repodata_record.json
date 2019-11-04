@@ -1,0 +1,19 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "ca-certificates-2019.10.16-0.tar.bz2",
+  "license": "MPL 2.0",
+  "md5": "74de25ed4201929128646a47e40f1d5e",
+  "name": "ca-certificates",
+  "sha256": "baf7b9dd162bf084dc126b0809674614db20d7ed8922c7fa2392ac93776c14fa",
+  "size": 134212,
+  "subdir": "osx-64",
+  "timestamp": 1571667869919,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2019.10.16-0.tar.bz2",
+  "version": "2019.10.16"
+}

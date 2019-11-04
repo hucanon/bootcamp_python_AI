@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2019.9.11-py37_0.tar.bz2",
+  "license": "ISC",
+  "md5": "5c7a70a6c3e16e5b304dc22266546ff8",
+  "name": "certifi",
+  "sha256": "3a1a49593de3219d3ae02fe89fdf48fc5ef11db7d646f4cc2e2a43ba6ba2bf25",
+  "size": 157763,
+  "subdir": "osx-64",
+  "timestamp": 1569254394848,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/certifi-2019.9.11-py37_0.tar.bz2",
+  "version": "2019.9.11"
+}

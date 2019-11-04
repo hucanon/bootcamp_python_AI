@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pysocks-1.7.1-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "26d5222202475a037f5e1c38012bb16f",
+  "name": "pysocks",
+  "sha256": "0040b2b00fdef06cfc2748448a228e67faaf4630c5ad9412636885254136af6e",
+  "size": 30738,
+  "subdir": "osx-64",
+  "timestamp": 1569264657827,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pysocks-1.7.1-py37_0.tar.bz2",
+  "version": "1.7.1"
+}

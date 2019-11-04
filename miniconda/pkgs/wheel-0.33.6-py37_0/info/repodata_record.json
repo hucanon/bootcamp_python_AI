@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "wheel-0.33.6-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "ffce119ac1e1789f5364d1bcdf40708c",
+  "name": "wheel",
+  "sha256": "61521877b225a69c3cb7790d430ecd63d6eeb760bff380ae42b1145114da6a4b",
+  "size": 41217,
+  "subdir": "osx-64",
+  "timestamp": 1569263355297,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wheel-0.33.6-py37_0.tar.bz2",
+  "version": "0.33.6"
+}

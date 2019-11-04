@@ -1,0 +1,83 @@
+# This file created by conda-build 3.18.10
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/acbc90e9-0045-4d86-6b6a-011515ff2d6f/volume/rsync-recipes/cffi-1.13.0-python_3.7-on-osx, last modified Tue Oct 22 09:54:10 2019
+# ------------------------------------------------
+
+package:
+    name: cffi
+    version: 1.13.0
+source:
+    patches:
+        - 0001-Link-to-dl-library.patch
+        - setup-linux.patch
+    sha256: 8fe230f612c18af1df6f348d02d682fe2c28ca0a6c3856c99599cdacae7cf226
+    url: https://pypi.io/packages/source/c/cffi/cffi-1.13.0.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/acbc90e9-0045-4d86-6b6a-011515ff2d6f/volume/cffi_1571756423399/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps -vv
+    string: py37hb5b8e2f_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2019.10.16 0
+        - certifi 2019.9.11 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1d h1de35cc_3
+        - pip 19.3.1 py37_0
+        - pycparser 2.19 py37_0
+        - python 3.7.4 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - setuptools 41.4.0 py37_0
+        - sqlite 3.30.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.33.6 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libffi >=3.2.1,<4.0a0
+        - pycparser
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - _cffi_backend
+        - cffi
+    requires:
+        - openssl
+about:
+    description: 'Cffi aims to allow users to call C code from Python without having
+        to
+
+        learn a 3rd language. It provides a convenient and reliable way to call
+
+        compiled C code from Python using interface declarations written in C.
+
+        '
+    dev_url: https://bitbucket.org/cffi/cffi/overview
+    doc_source_url: https://bitbucket.org/cffi/cffi/src/default/doc/?at=default
+    doc_url: http://cffi.readthedocs.org
+    home: https://bitbucket.org/cffi/cffi
+    license: MIT
+    license_file: LICENSE
+    summary: Foreign Function Interface for Python calling C code.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - inducer
+        - mingwandroid
+        - ocefpaf

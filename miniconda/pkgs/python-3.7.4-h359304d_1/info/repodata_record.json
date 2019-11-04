@@ -1,0 +1,31 @@
+{
+  "build": "h359304d_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "libffi >=3.2.1,<4.0a0",
+    "ncurses >=6.1,<7.0a0",
+    "openssl >=1.1.1c,<1.1.2a",
+    "readline >=7.0,<8.0a0",
+    "sqlite >=3.29.0,<4.0a0",
+    "tk >=8.6.8,<8.7.0a0",
+    "xz >=5.2.4,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "python-3.7.4-h359304d_1.conda",
+  "legacy_bz2_md5": "5bedeca3db142cc1df8f3ab7ef058212",
+  "legacy_bz2_size": 22698124,
+  "license": "PSF",
+  "md5": "7c00442e64b073663fe708744feca5ec",
+  "name": "python",
+  "sha256": "49c1ecf3b1edeac491fb68d915f44c9309d2d319873893b742001d5a3268631a",
+  "size": 18888559,
+  "subdir": "osx-64",
+  "timestamp": 1565727784536,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python-3.7.4-h359304d_1.conda",
+  "version": "3.7.4"
+}

@@ -1,0 +1,23 @@
+{
+  "build": "py37_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "python.app-2-py37_9.conda",
+  "legacy_bz2_md5": "bd62aa063f069b74dc2cb11eda00fc7e",
+  "legacy_bz2_size": 1403540,
+  "license": "BSD",
+  "md5": "96dda7434ea502dec8e87c03b7c5cc49",
+  "name": "python.app",
+  "sha256": "c1450db747f26f8370bb70e3639ee00bb9b1011d3f66ac53e71014046d4a69fe",
+  "size": 1277311,
+  "subdir": "osx-64",
+  "timestamp": 1538032544653,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python.app-2-py37_9.conda",
+  "version": "2"
+}
